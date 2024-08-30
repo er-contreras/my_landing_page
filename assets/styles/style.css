@@ -58,3 +58,14 @@ body {
   list-style-type: none;
   cursor: pointer;
 }
+
+.content-wrapper {
+  padding-top: 10rem;
+}
+
+.main_main {
+  width: 60vw;
+  height: 90vh;
+  border: 0.1px dotted #252525;
+  margin: 0 auto;
+}
