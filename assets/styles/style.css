@@ -60,12 +60,45 @@ body {
 }
 
 .content-wrapper {
+  display: flex;
+  justify-content: center;
   padding-top: 10rem;
+  min-height: 80rem;
 }
 
 .main_main {
-  width: 60vw;
-  height: 90vh;
-  border: 0.1px dotted #252525;
-  margin: 0 auto;
+  position: absolute;
+  min-height: 70rem;
+  width: 80vw;
+  border: 0.1px dashed #3f3f3f;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 10rem;
+}
+
+.content h1 {
+  font-size: 4rem;
+  color: #e3e3e3;
+}
+
+.content p {
+  width: 30rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #6d6d6d;
+  padding-top: 2rem;
+  line-height: 3rem;
+}
+
+.asterisk {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  background-color: #007393;
+  margin: 30rem auto 0 auto;
 }
