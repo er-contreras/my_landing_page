@@ -102,3 +102,9 @@ body {
   background-color: #007393;
   margin: 30rem auto 0 auto;
 }
+
+.svg {
+  display: flex;
+  justify-content: center;
+  margin-top: 30rem;
+}
