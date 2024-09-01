@@ -46,6 +46,8 @@ body {
 
 .header_main a {
   cursor: pointer;
+  color: white;
+  text-decoration: none;
 }
 
 .header_main a span {
