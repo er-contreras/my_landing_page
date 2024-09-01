@@ -70,7 +70,7 @@ body {
   position: absolute;
   min-height: 70rem;
   width: 80vw;
-  border: 0.1px dashed #3f3f3f;
+  border: 0.1px solid #3f3f3f;
 }
 
 .content {
