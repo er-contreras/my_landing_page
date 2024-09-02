@@ -95,7 +95,7 @@ body {
   position: absolute;
   min-height: 70rem;
   width: 80vw;
-  border: 0.1px solid #3f3f3f;
+  border: 0.1px solid #646464;
 }
 
 .content {
@@ -198,15 +198,16 @@ footer {
 
   .main_main {
     width: 90vw;
+    min-height: 90rem;
   }
   
   .under-construction {
-    top: 4rem;
+    top: 10rem;
     font-size: 4.5rem;
   }
 
   .content-wrapper {
-    padding-top: 5rem;
+    padding-top: 10rem;
   }
 
   .content h1 {
@@ -220,8 +221,12 @@ footer {
     line-height: 5rem;
   }
 
+  .svg {
+
+  }
+
   footer {
-    padding-top: 25rem;
+    padding-top: 35rem;
   }
 
   .rights-reserved {
