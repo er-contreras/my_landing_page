@@ -165,7 +165,7 @@ footer {
     font-size: 3rem;
     display: flex;
     justify-content: space-between;
-    width: 85rem;
+    width: 90rem;
     align-items: center;
     margin: 0 auto;
     padding: 8rem 4rem 2rem 4rem;
@@ -183,7 +183,7 @@ footer {
     gap: 2rem;
     width: 10rem;
     height: 10rem;
-    /* border: 1px solid #484848; */
+    border: 1px solid #646464;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -191,7 +191,46 @@ footer {
   .lines {
     max-width: 7rem;
     height: 0.2rem;
-    background-color: #666;
+    background-color: #777;
+    position: relative;
+    left: 1.5rem;
+  }
+
+  .main_main {
+    width: 90vw;
+  }
+  
+  .under-construction {
+    top: 4rem;
+    font-size: 4.5rem;
+  }
+
+  .content-wrapper {
+    padding-top: 5rem;
+  }
+
+  .content h1 {
+    font-size: 6rem;
+  }
+
+  .content p {
+    width: 90rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    line-height: 5rem;
+  }
+
+  footer {
+    padding-top: 25rem;
+  }
+
+  .rights-reserved {
+    width: 100%;
+    font-size: 2.6rem;
+  }
+
+  .social-media a svg {
+    width: 9rem;
   }
 }
 
