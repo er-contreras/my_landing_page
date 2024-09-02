@@ -127,3 +127,31 @@ body {
   justify-content: center;
   margin-top: 20rem;
 }
+
+footer {
+  padding: 10rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.social-media a {
+  height: 10rem;
+  text-align: center;
+  align-content: center;
+}
+
+.social-media a svg {
+  width: 5rem;
+}
+
+.rights-reserved {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 5rem 4rem 4rem;
+}
