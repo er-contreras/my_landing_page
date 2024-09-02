@@ -155,6 +155,7 @@ footer {
   padding: 5rem 4rem 4rem;
 }
 
+/* Media queries */
 @media (max-width: 1000px) {
   .header_header {
     display: none;
