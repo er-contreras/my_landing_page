@@ -70,6 +70,14 @@ body {
   cursor: pointer;
 }
 
+.under-construction {
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  top: 9rem;
+  color: chocolate;
+}
+
 .content-wrapper {
   justify-content: center;
   padding-top: 10rem;
