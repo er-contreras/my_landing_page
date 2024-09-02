@@ -122,14 +122,6 @@ body {
   line-height: 3rem;
 }
 
-.asterisk {
-  border-radius: 50%;
-  width: 10rem;
-  height: 10rem;
-  background-color: #007393;
-  margin: 30rem auto 0 auto;
-}
-
 .svg {
   justify-content: center;
   margin-top: 20rem;
@@ -161,4 +153,49 @@ footer {
   text-align: center;
   font-size: 1.4rem;
   padding: 5rem 4rem 4rem;
+}
+
+@media (max-width: 1000px) {
+  .header_header {
+    display: none;
+  }
+
+  .hidden_header {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 85rem;
+    align-items: center;
+    margin: 0 auto;
+    padding: 8rem 4rem 2rem 4rem;
+  }
+
+  .hidden_header a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    width: 10rem;
+    height: 10rem;
+    /* border: 1px solid #484848; */
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .lines {
+    max-width: 7rem;
+    height: 0.2rem;
+    background-color: #666;
+  }
+}
+
+@media (min-width: 1000px) {
+  .hidden_header {
+    display: none;
+  }
 }
