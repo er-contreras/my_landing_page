@@ -94,10 +94,19 @@ body {
 }
 
 .main_main {
-  position: absolute;
+  position: relative;
   min-height: 70rem;
   width: 80%;
-  border: 0.1px solid #646464;
+  border: 0.1px solid #2f2f2f;
+}
+
+.content-bg {
+  background: repeating-linear-gradient(0deg, #05c4ff, black 1px, #fff0 0.2rem, #fff0 0.7rem);
+  --mask: linear-gradient(0deg,#000 0%,rgba(0,0,0,.3) 60%,transparent);
+  -webkit-mask-image: var(--mask);
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 .content {
@@ -127,16 +136,18 @@ body {
 .svg {
   justify-content: center;
   margin-top: 20rem;
+  z-index: 4;
+  position: relative;
 }
 
 /* Divisor */
 .divisor {
   width: 80%;
   height: 2rem;
-  border-right: 1px solid gray;
+  border-right: 1px solid #2f2f2f;
   margin: 0 auto;
-  border-left: 1px solid gray;
-  border-bottom: 1px solid gray;
+  border-left: 1px solid #2f2f2f;
+  border-bottom: 1px solid #2f2f2f;
 }
 
 /* Content 2 */
@@ -144,9 +155,9 @@ body {
   width: 80%;
   height: 50rem;
   margin: 0 auto;
-  border-bottom: 1px solid gray;
-  border-right: 1px solid gray;
-  border-left: 1px solid gray;
+  border-bottom: 1px solid #2f2f2f;
+  border-right: 1px solid #2f2f2f;
+  border-left: 1px solid #2f2f2f;
 }
 
 /* Here starts footer */
