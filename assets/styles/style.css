@@ -13,6 +13,7 @@ body {
   color: #fff;
 }
 
+/* Header starts here */
 .header_header,
 .header_left,
 .header_main,
@@ -77,6 +78,7 @@ body {
   cursor: pointer;
 }
 
+/* Content */
 .under-construction {
   font-size: 2.5rem;
   text-align: center;
@@ -94,7 +96,7 @@ body {
 .main_main {
   position: absolute;
   min-height: 70rem;
-  width: 80vw;
+  width: 80%;
   border: 0.1px solid #646464;
 }
 
@@ -127,6 +129,27 @@ body {
   margin-top: 20rem;
 }
 
+/* Divisor */
+.divisor {
+  width: 80%;
+  height: 2rem;
+  border-right: 1px solid gray;
+  margin: 0 auto;
+  border-left: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+/* Content 2 */
+.content-2 {
+  width: 80%;
+  height: 50rem;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+}
+
+/* Here starts footer */
 footer {
   padding: 10rem;
 }
@@ -197,7 +220,7 @@ footer {
   }
 
   .main_main {
-    width: 90vw;
+    width: 90%;
     min-height: 90rem;
   }
   
@@ -221,8 +244,12 @@ footer {
     line-height: 5rem;
   }
 
-  .svg {
-
+  .divisor {
+    width: 90%;
+  }
+  
+  .content-2 {
+    width: 90%
   }
 
   footer {
