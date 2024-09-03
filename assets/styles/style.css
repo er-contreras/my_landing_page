@@ -275,6 +275,10 @@ footer {
   .social-media a svg {
     width: 9rem;
   }
+  
+  .content-bg {
+    background: repeating-linear-gradient(0deg, #05c4ff, black 1px, #fff0 0.1rem, #fff0 0.3rem);
+  }
 }
 
 @media (min-width: 1000px) {
