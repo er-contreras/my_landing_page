@@ -277,7 +277,7 @@ footer {
   }
   
   .content-bg {
-    background: repeating-linear-gradient(0deg, #05c4ff, black 1px, #fff0 0.1rem, #fff0 0.3rem);
+    background: repeating-linear-gradient(0deg, #05c4ff, black, #fff0, #fff0 2px);
   }
 }
 
