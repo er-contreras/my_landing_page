@@ -213,13 +213,16 @@ footer {
 }
 
 .social-media a {
-  height: 10rem;
   text-align: center;
   align-content: center;
 }
 
 .social-media a svg {
-  width: 5rem;
+  width: 4rem;
+}
+
+.linkedin-icon {
+  width: 3rem !important;
 }
 
 .rights-reserved {
@@ -227,7 +230,7 @@ footer {
   margin: 0 auto;
   text-align: center;
   font-size: 1.4rem;
-  padding: 5rem 4rem 4rem;
+  color: #8c8c8c;
 }
 
 /* Media queries */
@@ -306,6 +309,10 @@ footer {
 
   footer {
     padding-top: 15rem;
+  }
+  
+  .linkedin-icon {
+    width: 6.5rem !important;
   }
 
   .rights-reserved {
