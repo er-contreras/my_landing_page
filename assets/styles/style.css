@@ -163,30 +163,34 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(80px, auto));
   grid-auto-rows: minmax(80px, auto);
-  border-top: 1px solid #2f2f2f;
-  border-left: 1px solid #2f2f2f;
   height: 100%;
+}
+
+.last-child {
+  border: none !important;
 }
 
 .content-2-lines {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  border-bottom: 1px solid #2f2f2f;
   border-right: 1px solid #2f2f2f;
   padding-top: 6rem;
   padding-bottom: 6rem;
+  padding-left: 10rem;
 }
 
 .content-2-lines h2 {
   font-size: 2.5rem;
-  text-align: center;
   width: 90%;
 }
 
 .content-2-lines ul {
   padding-top: 3rem;
   font-size: 1.6rem;
+}
+
+.content-2-ul-wrapper {
+  width: 70%;
 }
 
 /* Here starts footer */
