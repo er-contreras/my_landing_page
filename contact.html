@@ -4,17 +4,44 @@
 <head>
   <title>Contacto</title>
   <link rel="stylesheet" href="./assets/styles/contact.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script defer src="script.js"></script>
 </head>
 
 <body>
-  <div>
-    <form>
+  <header-wrapper></header-wrapper>
 
-    </form>
-  </div>
-</body>
+  <form action="https://api.web3forms.com/submit" method="POST" id="form">
+    <fieldset>
+      <legend>Formulario de Contacto</legend>
+      <input type="hidden" name="access_key" value="9aab968a-d5e1-42f0-8342-37153b22cffa" />
+      <input type="hidden" name="subject" value="New Submission from Web3Forms" />
+      <input type="hidden" name="redirect" value="https://web3forms.com/success" />
+      <input type="checkbox" name="botcheck" id="" style="display: none;" />
+      <div>
+        <label for="name">Nombre Completo</label><br>
+        <input type="text" name="name" id="name" placeholder="John Doe" required />
+        <br><br>
+      </div>
+      <div>
+        <label for="email">Direccion de Correo Electronico</label><br>
+        <input type="email" name="email" id="email" placeholder="tu@empresa.com" required /><br><br>
+      </div>
+      <div>
+        <label for="phone">Numero Telefonico</label>
+        <br>
+        <input type="text" name="phone" id="phone" placeholder="+52 (442) 1234-567" required /><br><br>
+      </div>
+      <div>
+        <label for="message">Tu Mensaje</label>
+        <br>
+        <textarea rows="5" name="message" id="message" placeholder="Tu Mensaje" required></textarea><br><br>
+      </div>
+
+      <button type="submit"> Enviar Mensaje </button>
+    </fieldset>
+  </form>
 
 </html>
