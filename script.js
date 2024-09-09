@@ -32,7 +32,7 @@ template.innerHTML = /* html */`
   <!-- Hamburger button -->
   <header class="hidden_header">
     <div class="hidden_header_left">
-      <a href="#home"><span style="font-weight: bolder; color: #white;">ERICK<br>CONTRERAS</span></a>
+      <a href="index.html"><span style="font-weight: bolder; color: #white;">ERICK<br>CONTRERAS</span></a>
     </div>
   
     <div class="header_button">
