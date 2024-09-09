@@ -1,6 +1,7 @@
 form {
-  max-width: 500px;
+  max-width: 40%;
   margin: 150px auto;
+  font-size: 1.8rem;
 }
 
 fieldset {
@@ -11,5 +12,15 @@ input,
 textarea,
 button {
   width: 100%;
+}
+
+input {
+  padding: 0.4rem;
+}
+
+button {
+  cursor: pointer;
+  font-size: 1.8rem;
+  padding: 1.5rem;
 }
 

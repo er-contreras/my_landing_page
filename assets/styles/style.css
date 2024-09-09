@@ -23,14 +23,14 @@ body {
   display: flex;
 }
 
-.header-wrapper {
+header-wrapper {
   position: sticky;
   top: 0;
-  background-color: black;
   z-index: 2;
 }
 
 .header_header {
+  background-color: black;
   justify-content: space-between;
   height: 10rem;
   align-items: center;
@@ -138,7 +138,7 @@ body {
 .svg {
   justify-content: center;
   margin-top: 20rem;
-  z-index: 4;
+  z-index: 1;
   position: relative;
 }
 
