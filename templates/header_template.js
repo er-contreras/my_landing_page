@@ -1,9 +1,9 @@
-const template = document.createElement("template");
-template.innerHTML = /* html */`
+const header_template = document.createElement("template");
+header_template.innerHTML = /* html */`
   <header class="header_header">
     <div class="header_left">
       <a href="index.html"><span style="font-weight: bolder; color: #white;">ERICK<br>CONTRERAS</span></a>
-  
+
       <div>
         <nav>
           <div>
@@ -20,7 +20,7 @@ template.innerHTML = /* html */`
         </nav>
       </div>
     </div>
-  
+ 
     <div class="header_main">
       <a href="contact.html"><span>Contacto</span></a>
       <a href="https://calendly.com/er-contreras" target="_blank"><span style="display: flex; gap: 1rem;"><img
@@ -28,7 +28,7 @@ template.innerHTML = /* html */`
           RESERVA UNA CONSULTA GRATUITA</span></a>
     </div>
   </header>
-  
+
   <!-- Hamburger button -->
   <header class="hidden_header">
     <div class="hidden_header_left">
@@ -44,7 +44,7 @@ template.innerHTML = /* html */`
 // Logica JavaScript del componente
 class HeaderWrapper extends HTMLElement {
   connectedCallback() {
-    const html = template.content.cloneNode(true);
+    const html = header_template.content.cloneNode(true);
     this.append(html);
   }
 }
