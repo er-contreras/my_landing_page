@@ -247,6 +247,7 @@ footer {
     align-items: center;
     margin: 0 auto;
     padding: 8rem 4rem 2rem 4rem;
+    background-color: black;
   }
 
   .hidden_header a {
