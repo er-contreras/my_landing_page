@@ -36,13 +36,15 @@ menu-wrapper {
   top: 0;
   min-height: 100vh;
   background-color: black;
-  font-size: 3rem;
+  font-size: 5rem;
+  color: #9aafff;
 }
 
 menu-wrapper .top-popup-menu {
   display: flex;
   justify-content: space-between;
-  padding: 5rem 5rem;
+  padding: 10rem 10rem;
+  background-color: #101010;
 }
 
 menu-wrapper .popup-menu-options {
@@ -50,7 +52,12 @@ menu-wrapper .popup-menu-options {
 }
 
 menu-wrapper ul li {
-  padding: 5rem 0 0 5rem;
+  padding: 10rem 0 0 10rem;
+}
+
+.popup-menu-options a {
+  text-decoration: none; 
+  color: white;
 }
 
 .header_header {

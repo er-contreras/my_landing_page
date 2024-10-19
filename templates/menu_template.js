@@ -9,13 +9,13 @@ menu_template.innerHTML = /* InnerHTML */`
 
     <div class="popup-menu-options">
       <ul>
-        <li>Inicio</li>
-        <li>Productos</li>
-        <li>Precios</li>
-        <li>Sobre Mi</li>
-        <li>Blog</li>
-        <li>Contacto</li>
-        <li>Consulta Gratuita</li>
+        <a href="index.html"><li>Inicio</li></a>
+        <a href="#"><li>Productos</li></a>
+        <a href="#"><li>Precios</li></a>
+        <a href="#"><li>Sobre Mi</li></a>
+        <a href="#"><li>Blog</li></a>
+        <a href="contact.html"><li style="color: #0dff00";>Contacto</li></a>
+        <a href="https://calendly.com/er-contreras"><li style="color: #ff3d00";>Consulta Gratuita</li></a>
       </ul>
     </div>
   </div>
