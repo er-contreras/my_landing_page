@@ -55,6 +55,10 @@ menu-wrapper ul li {
   padding: 10rem 0 0 10rem;
 }
 
+.popup-menu-options {
+  padding-bottom: 20rem;
+}
+
 .popup-menu-options a {
   text-decoration: none; 
   color: white;

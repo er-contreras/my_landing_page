@@ -26,15 +26,20 @@ button {
 
 @media (max-width: 1000px) {
   form {
-    max-width: 80%;
-    font-size: 4rem;
+    max-width: 89%;
+    font-size: 5rem;
   }
 
-  input {
+  input, textarea {
     padding: 1.5rem;
+    font-size: 7rem;
+  }
+
+  input::placeholder, textarea::placeholder {
+    font-size: 5rem;
   }
 
   button {
-    font-size: 3rem;
+    font-size: 5rem;
   }
 }
