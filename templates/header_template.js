@@ -23,9 +23,12 @@ header_template.innerHTML = /* html */`
  
     <div class="header_main">
       <a href="contact.html"><span>Contacto</span></a>
-      <a href="https://calendly.com/er-contreras" target="_blank"><span style="display: flex; gap: 1rem;"><img
-            style="width: 2rem;" src="./assets/dial-telephone-50.png">
-          RESERVA UNA CONSULTA GRATUITA</span></a>
+      <a href="https://calendly.com/er-contreras" target="_blank">
+        <span style="display: flex; gap: 1rem;">
+          <img style="width: 2rem;" src="./assets/dial-telephone-50.png">
+          RESERVA UNA CONSULTA GRATUITA
+        </span>
+      </a>
     </div>
   </header>
 
@@ -35,7 +38,7 @@ header_template.innerHTML = /* html */`
       <a href="index.html"><span style="font-weight: bolder; color: #white;">ERICK<br>CONTRERAS</span></a>
     </div>
   
-    <div class="header_button">
+    <div onClick="openPopup()" class="header_button">
       <div class="lines"></div>
       <div class="lines"></div>
     </div>

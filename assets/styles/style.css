@@ -29,6 +29,30 @@ header-wrapper {
   z-index: 2;
 }
 
+menu-wrapper {
+  display: none;
+  position: sticky;
+  z-index: 99;
+  top: 0;
+  min-height: 100vh;
+  background-color: black;
+  font-size: 3rem;
+}
+
+menu-wrapper .top-popup-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 5rem;
+}
+
+menu-wrapper .popup-menu-options {
+  font-size: 8rem;
+}
+
+menu-wrapper ul li {
+  padding: 5rem 0 0 5rem;
+}
+
 .header_header {
   background-color: black;
   justify-content: space-between;
