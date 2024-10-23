@@ -7,7 +7,11 @@
 .prices-h2 {
   text-align: center;
   font-size: 5rem;
-  padding-top: 10rem;
+  padding: 10rem 0;
+}
+
+.prices-h2 p {
+  font-size: 3rem; 
 }
 
 .price-container {
@@ -105,5 +109,9 @@
   .price-description svg {
     width: 8rem;
     height: 4.5rem;
+  }
+
+  .prices-h2 p {
+    font-size: 4rem;
   }
 }
