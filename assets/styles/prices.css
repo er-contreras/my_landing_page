@@ -1,0 +1,109 @@
+.prices-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5rem;
+}
+
+.prices-h2 {
+  text-align: center;
+  font-size: 5rem;
+  padding-top: 10rem;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid white;
+  padding: 2rem;
+  min-width: 27rem;
+  max-width: 5rem;
+  min-height: 35rem;
+  border-radius: 2%;
+}
+
+.price-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price-container h2 {
+  font-size: 1.8rem;
+}
+
+.price-container p {
+  font-size: 2rem;
+}
+
+.contract-btn {
+  font-size: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.contract-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.price-description {
+  padding-top: 2rem;
+}
+
+.price-description li {
+  list-style: none;
+  font-size: 1.5rem;
+  padding: 0.2rem 0;
+}
+
+.price-description svg {
+  width: 2rem;
+  height: 1.5rem;
+}
+
+.checks {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  .prices-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price-container {
+    min-width: 100%;
+    min-height: 65rem;
+    margin-bottom: 10rem;
+  }
+
+  .price-container h2 {
+    font-size: 4.8rem;
+  }
+
+  .price-container p {
+    font-size: 5rem;
+  }
+
+  .price-container li {
+    font-size: 4.5rem;
+  }
+
+  .contract-btn {
+    min-width: 70%;
+    font-size: 7rem;
+    margin: 0 auto;
+    background-color: #ffcf3f;
+  }
+
+  .price-description {
+    padding-top: 7rem;
+  }
+
+  .price-description svg {
+    width: 8rem;
+    height: 4.5rem;
+  }
+}
