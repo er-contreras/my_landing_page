@@ -44,6 +44,7 @@
   font-size: 2rem;
   text-align: center;
   padding: 2rem;
+  border-radius: 1rem;
 }
 
 .anchor-btn {
@@ -100,6 +101,7 @@
     font-size: 7rem;
     margin: 0 auto;
     background-color: #ffcf3f;
+    border-radius: 2rem;
   }
 
   .price-description {
