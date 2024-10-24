@@ -31,13 +31,15 @@ header-wrapper {
 
 menu-wrapper {
   display: none;
-  position: sticky;
+  position: fixed;
   z-index: 99;
   top: 0;
   min-height: 100vh;
+  min-width: 100vw;
   background-color: black;
   font-size: 5rem;
   color: #959595;
+  background: #000000d9;
 }
 
 menu-wrapper .top-popup-menu {
