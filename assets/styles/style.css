@@ -54,7 +54,8 @@ menu-wrapper .popup-menu-options {
 }
 
 menu-wrapper ul li {
-  padding: 10rem 0 0 10rem;
+  padding: 8rem 0 0 10rem;
+  list-style: none;
 }
 
 .popup-menu-options {
