@@ -32,7 +32,6 @@
   }
 
   .about-pic {
-    background-size: cover;
-
+    background-size: contain;
   }
 }
