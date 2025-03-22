@@ -7,19 +7,19 @@ menu_template.innerHTML = /* InnerHTML */`
     </div>
     <div class="popup-menu-options">
       <ul>
-        <a href="index.html"><li>Inicio</li></a>
-        <a href="#"><li>Productos</li></a>
-        <a href="prices.html"><li>Precios</li></a>
-        <a href="about.html"><li>Sobre Mi</li></a>
+        <a href="index.html"><li>Home</li></a>
+        <a href="#"><li>Products</li></a>
+        <a href="prices.html"><li>Prices</li></a>
+        <a href="about.html"><li>About Me</li></a>
         <a href="#"><li>Blog</li></a>
-        <a href="contact.html"><li style="color: #c5c10f";>Contacto</li></a>
-        <a href="https://calendly.com/er-contreras"><li style="color: #00e5ff";>Consulta Gratuita</li></a>
+        <a href="contact.html"><li style="color: #c5c10f";>Contact</li></a>
+        <a href="https://calendly.com/er-contreras"><li style="color: #00e5ff";>Free Consultation</li></a>
       </ul>
     </div>
   </div>
 `;
 
-// Logica JavaScript del componente
+// JavaScript logic of the component
 class MenuWrapper extends HTMLElement {
   connectedCallback() {
     const html = menu_template.content.cloneNode(true);
